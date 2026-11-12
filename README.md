@@ -1,4 +1,4 @@
-# inboxy-net
+# Inboxy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-inboxy-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://inboxy.net/
+Inboxy provides AI-friendly email aliasing with a daily digest, allowing agents to receive and send mail via @inboxy.net addresses while keeping personal email private. It offers up to five aliases, a summary of incoming messages, and MCP server integration for AI agents, all hosted on EU-resident infrastructure with strong privacy guarantees. Public beta includes unlimited inbound, limited outbound, and browser extensions for easy use.
+
+**Areas:** Email Alias · Browser Extension · Daily Digest
+
+## Inboxy on APIs.io
+
+Everything profiled for Inboxy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/inboxy-net/](https://apis.io/providers/inboxy-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Inboxy Account API](https://apis.io/apis/inboxy-net/inboxy-net-account-api/) — Caller identity.
+- [Inboxy Addresses API](https://apis.io/apis/inboxy-net/inboxy-net-addresses-api/) — Mint and retire @inboxy.net aliases.
+- [Inboxy API keys API](https://apis.io/apis/inboxy-net/inboxy-net-api-keys-api/) — Manage your own API keys.
+- [Inboxy Articles API](https://apis.io/apis/inboxy-net/inboxy-net-articles-api/) — Read items from your feeds.
+- [Inboxy Attachments API](https://apis.io/apis/inboxy-net/inboxy-net-attachments-api/) — Signed download URLs.
+- [Inboxy Billing API](https://apis.io/apis/inboxy-net/inboxy-net-billing-api/) — Stripe checkout, billing portal, and plan changes.
+- [Inboxy Domains API](https://apis.io/apis/inboxy-net/inboxy-net-domains-api/) — Verify a custom domain for a future sending feature (1 on free and standard, 10 on pro). Verification only — a verified domain cannot yet be used to send mail.
+- [Inboxy Feeds API](https://apis.io/apis/inboxy-net/inboxy-net-feeds-api/) — RSS / Atom feed subscriptions.
+- [Inboxy Mail API](https://apis.io/apis/inboxy-net/inboxy-net-mail-api/) — Compose and send from your aliases.
+- [Inboxy Messages API](https://apis.io/apis/inboxy-net/inboxy-net-messages-api/) — List, read, search, mark, delete.
+- [Inboxy Outbox API](https://apis.io/apis/inboxy-net/inboxy-net-outbox-api/) — Logged outbound queue — what you or your agent sent.
+- [Inboxy Service API](https://apis.io/apis/inboxy-net/inboxy-net-service-api/) — Health, discovery.
+- [Inboxy Webhooks API](https://apis.io/apis/inboxy-net/inboxy-net-webhooks-api/) — Outbound event notifications (paid plans).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Inboxy Net Webhooks](https://apis.io/asyncapis/inboxy-net/inboxy-net-webhooks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Inboxy Domain Security](https://apis.io/security/inboxy-net/inboxy-net-domain-security/)
+- [Inboxy Vulnerability Disclosure](https://apis.io/security/inboxy-net/inboxy-net-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Inboxy Plans Pricing](https://apis.io/plans/inboxy-net/inboxy-net-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://inboxy.net/)
+- [Documentation](https://inboxy.net/docs/skill)
+- [Getting started](https://inboxy.net/help/getting-started)
+- [API reference](https://inboxy.net/llms.txt)
+- [Pricing](https://inboxy.net/pricing)
+- [Support](https://inboxy.net/help)
+- [Security](https://inboxy.net/help/report-vulnerability)
+- [Terms of service](https://inboxy.net/terms)
+- [Privacy policy](https://inboxy.net/privacy)
+- [GitHub](https://github.com/inboxy)
+- [Status](https://status.inboxy.net/)
+
+## API Evangelist rating
+
+**Kin Score 50.3** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.4 |
+| Contract governance | 16.4 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 42.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/inboxy-net/](https://apis.io/providers/inboxy-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Inboxy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/inboxy-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
